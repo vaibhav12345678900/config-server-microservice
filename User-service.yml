@@ -1,0 +1,10 @@
+# Enable fallback
+feign.circuitbreaker.enabled=true
+
+# Timeout settings (in milliseconds)
+feign.client.config.default.connectTimeout=3000
+feign.client.config.default.readTimeout=5000
+
+# Feign logging (optional for debugging)
+logging.level.feign=DEBUG
+logging.level.org.springframework.cloud.openfeign=DEBUG
